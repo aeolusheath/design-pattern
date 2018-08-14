@@ -1,1 +1,1 @@
-rm -rf ./*/*.js
+find . -name "*.js"  | xargs rm -f
